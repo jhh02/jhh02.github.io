@@ -1,0 +1,94 @@
+.contact-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  flex-basis: 57%;
+  text-align: center;
+  align-content: center;
+}
+
+aside {
+  flex-basis: 40%;
+  align-content: center;
+  text-align: center;
+}
+
+.contact-navbar {
+  margin: 8rem 0;
+  justify-content: center;
+}
+
+.contact-navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.contact-navbar a {
+  padding: 0;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.socialmedia {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedia i {
+  padding: 0 0.5rem;
+  width: 2 rem;
+}
+
+.btn {
+  width: 90px;
+  height: 90px;
+}
+
+.btn i {
+  font-size: 4rem;
+  color: grey;
+}
+
+input {
+  font-size: 1.3rem;
+  width: 400px;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  border: 1px grey solid;
+}
+
+form,
+iframe {
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+textarea {
+  margin-top: 2rem;
+  padding: 0;
+  resize: none;
+  width: 808px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+*::placeholder {
+  letter-spacing: normal;
+  padding: 10px;
+}
