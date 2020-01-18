@@ -66,7 +66,7 @@ function handleSymbol(value) {
       buffer = +runningTotal;
       runningTotal = 0;
       break;
-    case "←":
+    case "Del":
       if (buffer.length === 1) {
         buffer = "0";
       } else {
