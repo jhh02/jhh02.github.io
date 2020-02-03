@@ -16,19 +16,19 @@
 		<!-- Wrapper -->
 		<div class="wrapper">
 			<!--  Navigation Bar -->
-			<nav class="header">
+			<nav class="header" id="home">
 				<ul class="nav-wrapper">
-					<li class="nav-content" id="home">
-						<a class="nav-link" href="#">Home</a>
+					<li class="nav-content home">
+						<a class="nav-link " href="#home">Home</a>
 					</li>
-					<li class="nav-content" id="about">
-						<a class="nav-link" href="#">About</a>
+					<li class="nav-content about">
+						<a class="nav-link " href="#about">About</a>
 					</li>
-					<li class="nav-content" id="images">
-						<a class="nav-link" href="#">Photos</a>
+					<li class="nav-content photos">
+						<a class="nav-link " href="#photos">Photos</a>
 					</li>
-					<li class="nav-content" id="video">
-						<a class="nav-link" href="#">Highlight</a>
+					<li class="nav-content highlight">
+						<a class="nav-link " href="#video">Highlight</a>
 					</li>
 				</ul>
 			</nav>
@@ -58,11 +58,11 @@
 					<p class="name">1978 - 2020</p>
 				</section>
 				<!-- About  -->
-				<h1 class="heading">
+				<h1 class="heading" id="about">
 					About
 				</h1>
 				<section class="about-container">
-					<div class="about-content about-paragraph">
+					<div class="about-content about-paragraph about1">
 						<strong>Kobe Bean Bryant</strong> was an American professional
 						basketball player. A shooting guard, Bryant entered the National
 						Basketball Association (NBA) directly from high school, and played
@@ -84,21 +84,21 @@
 						Citing his physical Slam Dunk Contest, and he was named an All-Star
 						by his second season.
 					</div>
-					<div class="about-content">
+					<div class="about-content pic1">
 						<img
 							class="about-img"
 							src="img/kobe-about-photo-1.jpg"
 							alt="Kobe fadeaway"
 						/>
 					</div>
-					<div class="about-content">
+					<div class="about-content pic2">
 						<img
 							class="about-img"
 							src="img/kobe-about-photo-2.jpg"
 							alt="Kobe and Shaq"
 						/>
 					</div>
-					<div class="about-content about-paragraph">
+					<div class="about-content about-paragraph about2">
 						Despite a feud with teammate Shaquille O'Neal, the pair led the
 						Lakers to three consecutive NBA championships from 2000 to 2002. In
 						2003, Bryant was accused of sexual assault, but the charges were
@@ -118,7 +118,7 @@
 						suffered season-ending injuries to his knee and shoulder,
 						respectively, in the following two seasons.
 					</div>
-					<div class="about-content about-paragraph">
+					<div class="about-content about-paragraph about3">
 						Bryant retired after the 2015–16 season. At 34 years and 104 days of
 						age, Bryant became the youngest player in league history to reach
 						30,000 career points. He became the all-time leading scorer in
@@ -135,7 +135,7 @@
 						his 13-year-old daughter Gianna Bryant, and college baseball coach
 						John Altobelli, were also killed.
 					</div>
-					<div class="about-content">
+					<div class="about-content pic3">
 						<img
 							class="about-img"
 							src="img/kobe-about-photo-3.png"
@@ -145,7 +145,7 @@
 				</section>
 
 				<!-- Photos -->
-				<h1 class="heading">Photos</h1>
+				<h1 class="heading" id="photos">Photos</h1>
 				<div class="image-container">
 					<img src="img/kobe.jpg" alt="kobe img" class="  img-content active" />
 					<img src="img/kobe1.jpg" alt="kobe img" class="img-content" />
@@ -163,21 +163,23 @@
 					<button class="next btn">next</button>
 				</div>
 				<!-- Video -->
-				<h1 class="heading">Highlight</h1>
+				<h1 class="heading" id="video">Highlight</h1>
 				<div class="video-container">
 					<iframe
-						class="video-content"
+						class="video-content vid21"
 						width="560"
 						height="315"
+						min-width="300"
 						src="https://www.youtube.com/embed/OTTWedyp37o"
 						frameborder="0"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
 					></iframe>
 					<iframe
-						class="video-content"
+						class="video-content vid2"
 						width="560"
 						height="315"
+						min-width="300"
 						src="https://www.youtube.com/embed/tiNCtzgfrrY"
 						frameborder="0"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -186,6 +188,7 @@
 				</div>
 			</main>
 		</div>
+
 		<!-- Wrapper ends -->
 		<script src="photoslide.js"></script>
 	</body>
