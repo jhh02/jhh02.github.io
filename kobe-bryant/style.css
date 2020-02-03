@@ -187,7 +187,7 @@ body {
 
 /* Media Queries */
 
-@media (max-width: 656px) {
+@media screen and (max-width: 656px) {
 	.nav-wrapper {
 		width: 60%;
 		flex-direction: column;
