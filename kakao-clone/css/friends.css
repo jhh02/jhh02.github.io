@@ -1,3 +1,7 @@
+.friends {
+  margin-bottom: 80px;
+}
+
 .friends .friends__plus-friend {
   padding: 20px 0px;
   margin: 20px 0px;
@@ -5,9 +9,22 @@
   border-top: 1px solid #f7f7f7;
 }
 
+.friends__plus-friend .friend {
+  cursor: pointer;
+}
+
 .friends__plus-friend .friends__title,
 .friends__list .friends__title {
   font-size: 14px;
   opacity: 0.6;
   margin-bottom: 10px;
+}
+
+.friends__list .friends__friend {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.friends__header .friend {
+  cursor: pointer;
 }

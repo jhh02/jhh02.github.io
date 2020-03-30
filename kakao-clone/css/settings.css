@@ -1,0 +1,60 @@
+.settings .settings__sections {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 30px 0px;
+}
+
+.settings__setting .settings__icon {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.settings__setting .kakao_icon {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.settings__setting .tv__icon {
+  font-size: 20px;
+  margin-right: 25px;
+}
+.settings__setting .settings__title {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.settings__setting .title__kakaolab {
+  margin-right: 50px;
+}
+
+.settings__setting .title__notice {
+  font-size: 22px;
+  margin-left: 8px;
+}
+
+.settings .settings__setting {
+  padding: 15px 0px;
+  border-top: 1px solid #f7f7f7;
+  cursor: pointer;
+}
+
+.settings .settings__setting:last-child {
+  margin-bottom: 0;
+}
+
+.settings__setting__column .settings_version {
+  margin-left: 50px;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+
+.settings__setting .notice {
+  margin-left: 100px;
+}
+
+.settings__setting .notice_icon {
+  width: 50px;
+}
+
+.settings__setting .settings__setting__column-version {
+  margin-top: 10px;
+}
