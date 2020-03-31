@@ -1,5 +1,6 @@
 .status-header__container {
   position: fixed;
+  z-index: 2;
   background-color: white;
   top: 0;
   padding: 5px 0px;
@@ -164,10 +165,20 @@
   width: 90%;
 }
 
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
+}
+
 .incoming-message img {
   width: 30px;
   border-radius: 15px;
   margin-right: 15px;
+  animation: spin 1s linear infinite;
 }
 
 .incoming-message {
