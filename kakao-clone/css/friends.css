@@ -28,3 +28,14 @@
 .friends__header .friend {
   cursor: pointer;
 }
+
+.friends__plus-friend .plus-friends__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friend__column .friend-arrow {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}

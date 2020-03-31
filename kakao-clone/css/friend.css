@@ -5,17 +5,20 @@
 }
 
 .friend .friend__avatar {
-  width: 50px;
-  border-radius: 20%;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
 }
 
 .friend__avatar.g-avatar {
   width: 70px;
+  height: 70px;
 }
 
 .friend__avatar.m-avatar,
 .incoming-message .m-avatar {
   width: 60px;
+  height: 60px;
 }
 
 .friend .friend__column {
