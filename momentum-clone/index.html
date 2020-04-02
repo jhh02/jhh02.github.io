@@ -5,25 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum - clone</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="js-clock">
-      <h1 class="js-title">00:00:00</h1>
-    </div>
-    <h3 class="js-greetings greetings"></h3>
-    <form class="js-form form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <form class="js-toDoForm not-showing">
-      <div class="js-toDoFormDiv">
-        <h3 class="js-toDoForm__askToDo">What is your main focus for today?</h3>
-        <input class="js-toDoForm__input" type="text" placeholder="" />
+    <div class="container">
+      <!--Background Images-->
+
+      <!--Clock-->
+      <div class="js-clock">
+        <h1 class="js-title">00:00:00</h1>
       </div>
-    </form>
-    <ul class="js-toDoList"></ul>
+
+      <!--Greetings-->
+      <div class="js-greeting_wrapper tracking-in-contract-bck">
+        <h5 class="js-greetings greetings "></h5>
+        <form class="js-form form">
+          <input type="text" class="form-name" />
+        </form>
+      </div>
+      <!--To Do List-->
+      <div class="toDo_wrapper">
+        <form class="js-toDoForm not-showing">
+          <div class="js-toDoFormDiv active">
+            <h3 class="js-toDoForm__askToDo">
+              What is your main focus for today?
+            </h3>
+            <input class="js-toDoForm__input" type="text" />
+          </div>
+        </form>
+        <ul class="js-toDoList"></ul>
+      </div>
+      <div class="js-quotes"></div>
+    </div>
     <script src="js/index.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/greetings.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/all.js"></script>
   </body>
 </html>

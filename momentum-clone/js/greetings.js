@@ -29,9 +29,12 @@ function handleSubmit(event) {
   paintGreeting(currentValue);
   saveName(currentValue);
   toDoForm.classList.remove(NOT_SHOWING);
+  toDoAsk.classList.toggle("active");
 }
 
 function greetingNewUser() {
+  greeting.classList.add(SHOWING_CN);
+  greeting.innerText = `Hello, what's your name?`;
   form.classList.add(SHOWING_CN);
   form.addEventListener("submit", handleSubmit);
 }
