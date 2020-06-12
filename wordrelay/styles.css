@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: deepskyblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin: 20px auto;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.input1 {
+  width: 300px;
+  height: 1.1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.input {
+  width: 300px;
+  height: 1.1rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  height: 1.1rem;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+.givenWord {
+  font-size: 1.5rem;
+  margin: 20px auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.usedWord {
+  color: red;
+  font-size: 1.3rem;
+  margin: 10px auto;
+  text-transform: uppercase;
+}
+
+.error {
+  color: black;
+  margin: 10px auto;
+}
+
+.notShowing {
+  display: none;
+}
+
+/* Media Query */
+@media screen and (max-width: 480px) {
+  .input1 {
+    margin: 50px auto;
+    width: 300px;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .input {
+    width: 300px;
+    height: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .button {
+    background-color: white;
+    color: black;
+    height: 1.5rem;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .error {
+    color: black;
+    margin: 10px auto;
+    font-size: 1.3rem;
+  }
+}

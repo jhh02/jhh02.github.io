@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordrelay</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./dictionary.js"></script>
+    <script defer src="./firstword.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Word Relay</h2>
+      <form class="input-container">
+        <input
+          class="input1"
+          type="text"
+          id="startingWord"
+          placeholder="Enter any word to start playing.."
+        />
+      </form>
+      <div class="givenWord" id="word"></div>
+      <div id="inputDiv" class="notShowing input-container">
+        <input
+          placeholder="Enter a word.."
+          type="text"
+          id="input"
+          class="input"
+        />
+        <button class="button" id="button">submit</button>
+      </div>
+      <div id="usedWord" class="usedWord"></div>
+      <div class="error" id="error"></div>
+    </div>
+  </body>
+</html>
